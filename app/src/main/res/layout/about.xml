@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AA000000"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/about" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/tvFBFlux"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:paddingBottom="30dp"
+                android:text="Facebook Page: 
+                https://www.facebook.com/fluxus.iiti/"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developer"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#196AFF" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="B Krishna Chaitanya CSE 2nd year" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feedback"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#196AFF" />
+
+            <TextView
+                android:id="@+id/tvFeedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:autoLink="email"
+                android:text="If you have any suggestions/ideas for the app, just e-mail me at
+                bkchaitan94@gmail.com" />
+
+            <TextView
+                android:id="@+id/tvFeedbackFlux"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:autoLink="email"
+                android:text="Or if you have any feedback related to the Fluxus event contact us at 
+                contactus@fluxus.in" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

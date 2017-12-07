@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentFluxus" >
+
+    <ScrollView
+        android:id="@+id/svFluxus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/llFluxus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/ivFluxus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/f13m"
+                android:padding="20dp" />
+
+            <com.IITI.fluxus14.MyTextView
+                android:id="@+id/tvFluxus1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="30sp" />
+
+            <com.IITI.fluxus14.MyTextView
+                android:id="@+id/tvFluxus2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="20dp"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/bIITI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        		android:textColor="@color/deftext"
+                android:text="Register" />
+
+            <Button
+                android:id="@+id/bFluxus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        		android:textColor="@color/deftext"
+                android:text="Go to Fluxus official website" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
